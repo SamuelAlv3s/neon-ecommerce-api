@@ -38,4 +38,4 @@ export const order_items = pgTable("order_items", {
 
 export type Product = typeof products.$inferSelect;
 export type Order = typeof orders.$inferSelect;
-export type OrderItems = typeof order_items.$inferSelect;
+export type OrderItem = typeof order_items.$inferSelect;
